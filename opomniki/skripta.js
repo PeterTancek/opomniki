@@ -3,12 +3,12 @@ window.addEventListener('load', function() {
 	
 	//izvedi prijavo (gumb)
 	var izvediPrijavo = function(event){
-		var uporabnik = document.querrySelector("#uporabnisko_ime").value;
-		document.querrySelector("#uporabnik").innerHTML = uporabnik;
-		document.querrySelector(".pokrivalo").style.visibility = "hidden";
+		var uporabnik = document.querySelector("#uporabnisko_ime").value;
+		document.querySelector("#uporabnik").innerHTML = uporabnik;
+		document.querySelector(".pokrivalo").style.visibility = "hidden";
 	}
 	
-	document.querrySelector("#prijavniGumb").addEventListener('click', izvediPrijavo);
+	document.querySelector("#prijavniGumb").addEventListener('click', izvediPrijavo);
 		
 		
 		
